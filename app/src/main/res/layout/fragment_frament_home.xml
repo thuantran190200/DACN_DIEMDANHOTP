@@ -6,11 +6,16 @@
     tools:context=".frament_home">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/Beige"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chào mừng bạn đến với ứng dụng điểm danh OTP"/>
 
         <ImageView
             android:layout_width="300dp"
@@ -18,7 +23,7 @@
 
             android:backgroundTint="@color/Red_DarkRed"/>
 
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </FrameLayout>

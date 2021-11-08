@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +13,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class SessionGV_Adaper extends RecyclerView.Adapter<SessionGV_Adaper.SesionGvViewHolder>{
+    private Context context;
     private List<Session_gv> mListSessionGV;
 
-    public SessionGV_Adaper(List<Session_gv> mListSessionGV) {
-        this.mListSessionGV = mListSessionGV;
+    public SessionGV_Adaper(Context context) {
+        this.context = context;
+    }
+    public void setData(List<Session_gv> list){
+        mListSessionGV = list;
+        notifyDataSetChanged();
     }
 
     @NonNull

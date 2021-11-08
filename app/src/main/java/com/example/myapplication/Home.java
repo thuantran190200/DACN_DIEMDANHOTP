@@ -42,11 +42,11 @@ public class Home extends AppCompatActivity {
                         loadFragment(fragment);
                         return true;
 
-                    /*case R.id.nav_giohang:
-                        fragment = new Fragment_giohang();
+                    case R.id.search:
+                        fragment = new fragment_session();
                         loadFragment(fragment);
                         return true;
-                    case R.id.nav_giaohang:
+                    /*case R.id.nav_giaohang:
                         fragment = new Giaohang();
                         loadFragment(fragment);
                         return true;

@@ -1,25 +1,25 @@
 package com.example.myapplication;
 
 public class Session_gv {
-    private int seesion;
+    private int session;
     private String subject;
     private String classroom;
     private String group;
 
 
     public Session_gv(int seesion, String subject, String classroom, String group) {
-        this.seesion = seesion;
+        this.session = seesion;
         this.subject = subject;
         this.classroom = classroom;
         this.group = group;
     }
 
     public int getSeesion() {
-        return seesion;
+        return session;
     }
 
     public void setSeesion(int seesion) {
-        this.seesion = seesion;
+        this.session = seesion;
     }
 
     public String getSubject() {
