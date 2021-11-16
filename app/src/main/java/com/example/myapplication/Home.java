@@ -40,12 +40,12 @@ public class Home extends AppCompatActivity {
                         return true;
 
                     case R.id.session:
-                        fragment = new sesion0();
+                        fragment = new fragment_session();
                         loadFragment(fragment);
                         return true;
 
                     case R.id.search:
-                        fragment = new fragment_session();
+                        fragment = new sesion0();
                         loadFragment(fragment);
                         return true;
                     case R.id.profile:

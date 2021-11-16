@@ -72,6 +72,12 @@ public class fragment_session extends Fragment {
         rcv_sessiongv.setAdapter(sessionGV_adaper);
         return view;
     }
+
+
+
+
+
+    //viết hàm load môn học
     private List<Session_gv> getListSessionGV(){
         List<Session_gv> list = new ArrayList<>();
 
