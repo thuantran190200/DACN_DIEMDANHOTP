@@ -12,6 +12,8 @@ import android.view.WindowManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import profileUI.profileFragment;
+
 public class Home extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
@@ -46,12 +48,12 @@ public class Home extends AppCompatActivity {
                         fragment = new fragment_session();
                         loadFragment(fragment);
                         return true;
-                    /*case R.id.nav_giaohang:
-                        fragment = new Giaohang();
+                    case R.id.profile:
+                        fragment = new profileFragment();
                         loadFragment(fragment);
                         return true;
 
-                    case R.id.nav_thongtin:
+                    /*case R.id.nav_thongtin:
                         fragment = new Toi();
                         loadFragment(fragment);
                         return true;*/

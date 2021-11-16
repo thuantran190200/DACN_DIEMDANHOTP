@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SessionDetailsGV">
+    tools:context=".session_details_sv">
 
     <RelativeLayout
         android:id="@+id/backgroud_title"
@@ -120,7 +120,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/bungee"
-        android:text="Số sinh viên: 40"
+        android:text="Tên giảng viên: Nguyễn Văn A"
         android:textColor="@color/black"
         android:textSize="20dp" />
     <TextView
@@ -140,6 +140,4 @@
         android:text="Điểm danh"
         android:textColor="@color/white"
         android:textSize="16dp"/>
-
-
 </RelativeLayout>

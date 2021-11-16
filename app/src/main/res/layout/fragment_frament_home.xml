@@ -23,7 +23,16 @@
 
             android:backgroundTint="@color/Red_DarkRed"/>
 
+
+
+
     </RelativeLayout>
 
+    <Button
+        android:id="@+id/btn_opentest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="open activity attendace_sv test"/>
 
 </FrameLayout>

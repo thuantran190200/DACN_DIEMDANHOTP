@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.model;
 
 public class Session_gv {
     private int session;
