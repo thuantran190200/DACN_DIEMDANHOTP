@@ -2,16 +2,16 @@ package com.example.myapplication.model;
 
 public class User {
     private String id;
-    private String username;
-    private String password;
+    private String usename;
+    private String pass;
     private int role;
 
     public  User(){}
 
-    public User(String id, String username, String password, int role) {
+    public User(String id, String usename, String pass, int role) {
         this.id = id;
-        this.username = username;
-        this.password = password;
+        this.usename = usename;
+        this.pass = pass;
         this.role = role;
     }
 
@@ -23,20 +23,20 @@ public class User {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUsename() {
+        return usename;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUsename(String usename) {
+        this.usename = usename;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPass() {
+        return pass;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPass(String pass) {
+        this.pass = pass;
     }
 
     public int getRole() {

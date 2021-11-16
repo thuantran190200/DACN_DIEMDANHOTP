@@ -40,7 +40,7 @@
                 android:background="@color/White_transparent_white_percent_60"
                 android:fontFamily="@font/poppins_regular"
                 android:hint="Mã sinh viên hoặc CB GV-NV"
-                android:inputType="number"
+                android:inputType="text"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"

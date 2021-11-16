@@ -17,7 +17,10 @@ public class NetworkHandler {
     public static Retrofit getRetrofit() {
 
         return new Retrofit.Builder()
-                .baseUrl("https://10.0.2.2:7003/api/")
+                //code chính
+                //.baseUrl("https://10.0.2.2:7003/api/")
+                //test
+                .baseUrl("https://61927979d3ae6d0017da811e.mockapi.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(getUnsafeOkHttpClient())
                 .build();

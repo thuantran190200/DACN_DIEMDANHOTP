@@ -15,6 +15,13 @@ public interface ApiService {
     ApiService apiService =  NetworkHandler.getRetrofit().create(ApiService.class);
 
 
-    @GET("Users/")
-    Call<User> convertUser(@Query("useName") String username, @Query("pass") String password);
+
+    //test
+    @GET("Users")
+    Call<List<User>> converUser(@Query("usename") String username);
+
+
+    //code chính
+    //@GET("Users/")
+    //Call<User> convertUser(@Query("useName") String username, @Query("pass") String password);
 }
